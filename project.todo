@@ -6,6 +6,7 @@
 ✔ Já criei o repostiório no github @done(20-09-30 20:34)
 ☐ Instalar as bibliotecas que vamos utilizar no projeto (pelo menos as que já planejamos);
     ✔ Nodemon (DEV) @done(20-09-30 20:34)
+        ☐ configurar o package.json/npm start = "nodemon bin/www";
     ✔ Sequelize @done(20-09-30 20:35)
     ✔ Sequelize-Cli (DEV) @done(20-09-30 20:35)
     ✔ MySql2 @done(20-09-30 20:36)
@@ -24,6 +25,9 @@
     ☐ chamar npx sequelize model:generate --name nomeDoModel --attributes nomeDaColuna:tipoDeDado
     ☐ criar as migrations;
     ☐ definir os atributos do model (se você adicionou algum sem ser pelo cli);
+    ☐ Criar os models sem nenhuma foreign_key primeiro! Se atentar para não criar
+        migration/models fazendo referências a tabelas que ainda não existem na hora
+        de executar os códigos
 
 
 

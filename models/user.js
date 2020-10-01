@@ -16,7 +16,17 @@ module.exports = (sequelize, DataTypes) => {
   });
   
   User.associate = (models)=> {
-    //associações vão aqui!
+    User.hasMany(models.Posts,
+      {
+      foreignKey: 'users_id'
+      }
+    );
+    User.belongsToMany( User, 
+      {
+      as: 'Amigos',
+      through: 'Amizades'
+      }
+    );
   } 
   
   return User;
