@@ -29,6 +29,15 @@
         migration/models fazendo referências a tabelas que ainda não existem na hora
         de executar os códigos
 
-
+* CRUD DE USER *
+☐ Create
+    ✔ Exibir um formulário de cadastro; @done(20-10-07 20:57)
+    ☐ Capturar os inputs do usuário;
+        ☐ Debug: exibir os dados que chegam através do formulário
+    ☐ Tratar os dados inseridos pelo usuário;
+    ☐ Salvar os dados no banco de dados;
+☐ Read
+☐ Update
+☐ Delete
 
 

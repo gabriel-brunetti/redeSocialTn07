@@ -6,10 +6,10 @@ const { Model } = require('sequelize');
       caminhoFotoPost: DataTypes.STRING,
       users_id: {
         type: DataTypes.INTEGER,
-        references: {
-          model: 'Users',
-          key: 'id'
-        }
+        // references: {
+        //   model: 'Users',
+        //   key: 'id'
+        // }
       },
     }, {
       // definindo opções do model!
